@@ -127,7 +127,7 @@ end)
 function dclog(xPlayer, text)
 	local playerName = Sanitize(xPlayer.getName())
 	
-	local discord_webhook = GetConvar('discord_webhook', "https://discord.com/api/webhooks/798232455806844988/TWagGtLGL_OUUXSRLyzzVxs996wLKyM60dpuFWh9RJF4WWe6wtkDUS8JUiQtER7_Ago7")
+	local discord_webhook = GetConvar('discord_webhook', "Webhook girin")
 	if discord_webhook == '' then
 	  return
 	end
